@@ -1,0 +1,53 @@
+{
+  "name": "@motiff/designmcp",
+  "version": "0.1.0",
+  "description": "Model Context Protocol server for Motiff Design System",
+  "type": "module",
+  "bin": {
+    "design-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.7.0",
+    "@types/node": "^20.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "author": {
+    "name": "Muhammad Tayyab",
+    "email": "meetayyab@gmail.com",
+    "url": "https://www.iamtayyab.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/motiff-mcp-server"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/motiff-mcp-server/issues"
+  },
+  "homepage": "https://github.com/yourusername/motiff-mcp-server#readme",
+  "keywords": [
+    "motiff",
+    "design",
+    "mcp",
+    "model-context-protocol",
+    "ide",
+    "cursor"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
