@@ -1,10 +1,10 @@
 {
-  "name": "@motiff/designmcp",
+  "name": "motiff-design-mcp",
   "version": "0.1.0",
   "description": "Model Context Protocol server for Motiff Design System",
   "type": "module",
   "bin": {
-    "design-mcp": "dist/index.js"
+    "motiff-design-mcp": "dist/index.js"
   },
   "files": [
     "dist"
@@ -30,12 +30,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/motiff-mcp-server"
+    "url": "https://github.com/muhammadtayyab3411/motiff-design-mcp"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/motiff-mcp-server/issues"
+    "url": "https://github.com/muhammadtayyab3411/motiff-design-mcp/issues"
   },
-  "homepage": "https://github.com/yourusername/motiff-mcp-server#readme",
+  "homepage": "https://github.com/muhammadtayyab3411/motiff-design-mcp#readme",
   "keywords": [
     "motiff",
     "design",
